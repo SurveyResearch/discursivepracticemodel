@@ -1,0 +1,329 @@
+\documentclass[11pt,twoside]{article}
+\usepackage[toc,page,header]{appendix}
+\usepackage{pdfpages}
+\usepackage{csquotes}
+\usepackage{epigraph}
+\usepackage{changepage}
+\usepackage{fontspec}
+\defaultfontfeatures{Scale=MatchLowercase}
+\setmainfont[Mapping=tex-text]{Times New Roman}
+\setsansfont[Mapping=tex-text]{Arial}
+\setmonofont{Courier}
+
+\usepackage{float}
+\usepackage{turnstile}
+\usepackage{bussproofs}
+
+\usepackage{geometry}
+\geometry{letterpaper}
+
+\newtheorem{theorem}{Theorem}
+%\newtheorem{cor}{Corollary}
+%\newtheorem{lem}{Lemma}
+%\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\newtheorem{objection}{Objection}
+\newenvironment*{response}[1][]{\noindent
+\textbf{Response to Objection #1.}
+\begin{adjustwidth}{1em}{1em}
+}
+{\end{adjustwidth}
+\vspace{1ex}
+}
+
+
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{graphicx}
+\usepackage[leftcaption]{sidecap}
+\sidecaptionvpos{figure}{c}
+
+%\usepackage{amssymb}
+
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\usepackage[
+bibstyle=reading,%%numeric,
+entrykey=false,
+citestyle=authortitle,
+natbib=true,
+hyperref,
+bibencoding=utf8,backref=true,backend=biber]{biblatex}
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Discursive Practices},    % title
+    pdfauthor={G. A. Reynolds},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={G. A. Reynolds},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+\usepackage{draftwatermark}
+
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+
+\lhead[Discursive Practices]{\thepage}
+\chead[]{}
+\rhead[\thepage]{Discursive Practices}
+
+\title{Speech, Discourse, Language \\
+\vspace{12pt} \Large{A survey of contemporary models and their relevance to \\
+\SR{}}}
+\author{G. A. Reynolds}
+\date{\today}
+\bibliography{%
+../bib/abstracts.bib,%
+../bib/anthro.bib,%
+../bib/biology.bib,%
+../bib/brandom.bib,%
+../bib/causality.bib,%
+../bib/cognitivism.bib,%
+../bib/dialogics.bib,%
+../bib/embodiment.bib,%
+../bib/em.bib,%
+../bib/linguistics.bib,%
+../bib/logic.bib,%
+../bib/mind.bib,%
+../bib/philosophy.bib,%
+../bib/pragmatism.bib,%
+../bib/psychomet.bib%
+../bib/psychometrics.bib,%
+../bib/misc.bib,%
+../bib/measurement.bib,%
+../bib/psychology.bib,%
+../bib/science.bib,%
+../bib/surveyresearch.bib,%
+../bib/variables.bib,%
+../bib/val.bib,%
+../bib/validity.bib,%
+}
+
+%% Macros
+
+\newcommand{\SM}{Standard Model}
+\newcommand{\XSM}{Extended Standard Model}
+
+\newcommand{\SMeth}{Survey Methodology}
+
+\newcommand{\SR}{Survey Research}
+\newcommand{\sr}{survey research}
+\newcommand{\SRIV}{Survey Interview}
+\newcommand{\sriv}{survey interview}
+\newcommand{\SIV}{Survey Interviewing}
+\newcommand{\FI}{Field Interviewer}
+\newcommand{\Iver}{Interviewer}
+\newcommand{\R}{Respondent}
+\newcommand{\LPR}{Legal Permanent Resident}
+\newcommand{\ART}{Assimilated Response Technique}
+\newcommand{\GAM}{Grouped Answer Method}
+\newcommand{\IOM}{Instrument of Measurement}
+
+\newcommand{\MIE}{\textit{MIE}}
+
+\includeonly{%
+%% pilots,cards
+}
+
+\setlength{\epigraphwidth}{4in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+\nocite{*}
+
+\begin{abstract}
+abstract
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{remark}
+  Language is culture, not nature.  It has a history, not an essence.
+\end{remark}
+
+Personal v. subpersonal explanations.  Most cognitive sciences focus
+on the subpersonal.  For reasons that will become clear, we do not
+address this perspective in detail in this paper, but here we provide
+an overview of the main issues and prominent approaches.
+
+The main reason for skipping cognitivism is that it (usually) fails to
+acknowledge the distinction between the space of reasons and the
+natural space of laws.  It may have a lot to say about the underlying
+processes involved in cognition, but it cannot \textit{explain} the
+distinctively social and rational character of cognition.  It can't
+handle \textit{meaning}.  For a detailed analysis of this problem see
+``Critique of Cognitive Interviewing''.
+
+\subsection{Speech and Language}
+
+\subsection{Linguistics}
+
+\cite{love_cognition_2004} - an integrationist attack on
+language-as-code and ``classical'' view of language.
+
+See also Bakhtin on the utterance.
+
+\subsection{Cognitivist Models}
+
+\cite{levinson_cognition_2006}
+
+\subsection{Neuroscience}
+
+A hot topic today is the relation of neurology to cognition.
+Reductionists attempt to show how cognition can be reduced to the
+physical entities, states, and processes of the brain.  Etc.
+
+%%%%%%%%%%%%%%%%%%%%
+\section{Ethnomethodology and Conversation Analysis}
+
+\begin{abstract}
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%
+\section{Dialogical Models: Bakhtin and the Scandanavian School}
+
+\begin{remark}
+  There are several ``schools'' in this region: Dialogicism (Bahktin,
+  Linell, et al.); Integrationism (Roy Harris); Contextualism (who?);
+  Interactionalism (who?)  ``Integrationism'' is more closely aligned
+  with linguistics, dialogism with discourse studies (and psych,
+  anthro, etc.)  I'm not sure if Contextualism and Interactionism have
+  been put forth as coherent doctrines by any major figure, but lots
+  of people in \SR{} appeal to one or the other or both in some form.
+\end{remark}
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{remark}
+  Bakhtin: ``prosaics''
+\end{remark}
+
+Bakhtin: constitutive features of the utterance as a unit of speech
+communication, features distinguishing it from the units of language:
+
+\begin{itemize}
+\item change of speaking subjects (CA: turns) (p. 71, 76)
+\item finalization of the utterance (p. 76); criteria:
+\begin{itemize}
+\item possibility of responding to it (assumption of responsive attitude toward it)
+\end{itemize}
+finalized wholeness of the utterance determined by 3 aspects/factors (p. 76)
+\begin{itemize}
+\item referential and semantic exhaustiveness of the theme of the utterance (p. 77)
+\item speaker's plan or speech will (p. 77)
+\item typical composition and generic forms of finalization (p. 78) - most important determining factor
+\end{itemize}
+\item ``third feature of the utterance -- the relation of the
+  utterance to the \textit{speaker himself} (the author of the
+  utterance) adn to the \textit{other} participants in speech
+  communication'' (p.84)
+\item ``first aspect of the utterance that determines its
+  compositional and stylistic features'' is ``referentially semantic
+  assignments (plan) of the speech subject (or author) (p.84)
+\item ``The second aspect of the utterance that determines its
+  composition and style is the \textit{expressive} aspect, taht is,
+  the speaker's subjective emotional evaluation of the referentially
+  semantic content of his utterance''. p. 84
+\end{itemize}
+
+\begin{remark}
+  ``So the expressive aspect is a constitutive feature of the utterance.''
+
+``Thus, the utterance, its styule, and its composition are determined
+  by its referentially semantic element (the theme) and its expressive
+  aspecct, that is, the speaker's evaluative attitude toward the
+  referntially semantic element of the utterance.  Stylistics knows no
+  third aspect... Such is the prevailing idea'' p. 90
+
+But to this Bakhtin adds: responsivity and addressivity.  ``Any
+concrete utterance is a link in the chain of speech communication of a
+particular sphere'' etc. p. 91
+
+Responsivity: ``the expression of an utterance can never be fully
+understood or explained if its thematic content is all that is taken
+into account.  The expression of an utterance always \textit{responds}
+to a greater or lesser degree, that is, it expresses the speaker's
+attitude toward others' utterance and not just his attitude toward the
+object of his utterance... The utterance is filled with
+\textit{dialogic overtones}...'' p. 92
+
+Addressivity: ``But the utterance is related not only to preceding,
+but also to subsequent links in the chain of speech communion...
+[F]rom the very beginning, the utterance is constructed while taking
+into account possible responsive reactions, for whose sake, in
+essence, it is actually created.'' p. 94
+
+``An essential (constitutive) marker of the utterance is its quality
+of being directed to someone, its \textit{addressivity}... Both the
+composition and, particularly, the style of the uttearance depend on
+those to whom the utterance is addressed, ow the speaker (or writer)
+senses and imagines his addressees, and the force of their effect on
+the utterance.  Each speech genre in each area of speech communication
+has its own typical conception of the addressee, and this defines it
+as a genre.''  p. 95
+\end{remark}
+
+
+\cite{bakhtin_problem_1986}
+
+\cite{junefelt_proceedings_2009}
+
+\cite{linell_respect_2009}
+
+\cite{linell_rethinking_2009}
+
+\cite{markova_coding_2007}
+
+\cite{linell_communicative_2010}
+
+\cite{linell_asymmetries_1991}
+
+%%%%%%%%%%%%%%%%%%%%
+\section{Deontic Scorekeeping}
+
+\begin{abstract}
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%
+
+\clearpage
+\appendix
+\begin{appendices}
+\section{Bibliography}
+%% \addcontentsline{toc}{chapter}{Bibliography}
+%% \bibliographystyle{plainnat}
+\printbibliography[heading=none]
+\end{appendices}
+
+\end{document}
